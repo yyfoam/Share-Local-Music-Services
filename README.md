@@ -33,7 +33,7 @@ yyfoam/share-local-music-services:latest
 ### 克隆本仓库：
 
 ```bash
-git clone https://github.com/yourusername/Share-Local-Music-Services.git
+git clone https://github.com/yyfoam/Share-Local-Music-Services.git
 ```
 ### 安装ffmpeg 
 #### 在 Ubuntu/Debian 上安装 
