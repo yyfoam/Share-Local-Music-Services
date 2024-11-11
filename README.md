@@ -31,7 +31,7 @@ yyfoam/share-local-music-services:latest
 - **```yyfoam/share-local-music-services:latest```**：使用最新的镜像部署该服务。
 ## 手动部署
 ### 克隆本仓库：
-**环境：python 3.9.18**
+
 ```bash
 git clone https://github.com/yyfoam/Share-Local-Music-Services.git
 ```
@@ -45,6 +45,7 @@ ffmpeg -version
 看到版本号就成功了。
 
 ### 安装依赖：
+**python环境：3.9.18**
 ```bash
 cd Share-Local-Music-Services
 pip install -r requirements.txt
