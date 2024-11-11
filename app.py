@@ -315,7 +315,8 @@ def ffmpeg_get_audio_metadata(file_path):
                 if key.lower().startswith('title'):
                     title = value
                 elif key.lower().startswith('album'):
-                    album = value
+                    if 'artist' not in key.lower():
+                        album = value
                 elif key.lower().startswith('artist'):
                     artist = value
                 elif key.lower().startswith('lyrics') or key.lower().startswith('unsyncedlyrics'):
