@@ -1,0 +1,6 @@
+colorama==0.4.6
+ffmpeg_python==0.2.0
+Flask==3.0.3
+mutagen==1.47.0
+Pillow==11.0.0
+pytz==2022.7.1

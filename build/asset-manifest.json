@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/music_share_local/static/css/main.79d7fea8.css",
+    "main.js": "/music_share_local/static/js/main.91e834a7.js",
+    "index.html": "/music_share_local/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.79d7fea8.css",
+    "static/js/main.91e834a7.js"
+  ]
+}
