@@ -263,7 +263,7 @@ def get_audio_duration(file_path):
 
 def create_playlist(_type, _title, _album, _artist, _lyrics, _duration, file_path):
     file_path_base64 = encode_string_to_hex(file_path)
-    if _lyrics == 'None':
+    if _lyrics == 'None' or not _lyrics:
         lyrics_file_path = os.path.splitext(file_path)[0] + '.lrc'
         # 如果没有歌词，则尝试读取 .lrc 文件
         if os.path.exists(lyrics_file_path):
